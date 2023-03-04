@@ -53,7 +53,7 @@ void setup()
   pinMode(A0, OUTPUT);            // ...Ausgangspins festlegen
   pinMode(A1, OUTPUT);
   pinMode(A2, OUTPUT);
-  pinMode(A3, OUTPUT);
+  pinMode(A3, OUTPUT);ha
   pinMode(A4, OUTPUT);
   pinMode(A5, OUTPUT);
   digitalWrite(A0, LOW);          // Ist die Masse fuer die Optokoppler
