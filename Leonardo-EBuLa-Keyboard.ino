@@ -18,7 +18,7 @@
  * Fuer die Ansteuerung der Monitortasten sind die Anschluesse A0 bis A5 vorgesehen.
  * Der Code ist Kassenmonitore der Marke TVS vorgesehen. Monitore von Siemens/Wincor/Nixdorf
  * sind in der Regel baugleich. Fuer andere Geraete muesste der Code entsprechend angepasst werden.
- * Nach druecken von St werdend die Tasten auf der rechten Seute an den Monitor geleitet.
+ * Nach druecken von St werdend die Tasten auf der rechten Seite an den Monitor geleitet.
  * Druecken der Helligkeitstaste navigiert zusaetzlich direkt ins Helligkeitsmenue des Monitor OSD.
  * Wer die Funktion nutzen moechte, muss die '//' in Zeile 33 entfernen.
  */
@@ -53,7 +53,7 @@ void setup()
   pinMode(A0, OUTPUT);            // ...Ausgangspins festlegen
   pinMode(A1, OUTPUT);
   pinMode(A2, OUTPUT);
-  pinMode(A3, OUTPUT);ha
+  pinMode(A3, OUTPUT);
   pinMode(A4, OUTPUT);
   pinMode(A5, OUTPUT);
   digitalWrite(A0, LOW);          // Ist die Masse fuer die Optokoppler
